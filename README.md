@@ -16,7 +16,7 @@ Styling: SCSS
 Animations: Framer Motion
 
 ## Link
-live link :- (macdeck-7a755c.netlify.app)
+live link :- https://macdeck-7a755c.netlify.app
 
 ## Demo
 

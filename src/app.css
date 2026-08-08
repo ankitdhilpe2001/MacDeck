@@ -1,0 +1,37 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Basic Reset for Margin and Padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Remove List Styles */
+ul, ol {
+  list-style: none;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-image: url("/new-wallpaper-compressed.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}/*# sourceMappingURL=app.css.map */

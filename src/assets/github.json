@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000",
+    "title": "TaskFlow - Task Management App",
+    "description": "A productivity web application that allows users to create, update, and manage daily tasks with a clean and responsive UI.",
+    "tags": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "repoLink": "https://github.com/example/taskflow",
+    "demoLink": "https://example.com/taskflow"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000",
+    "title": "DevBlog - Blogging Platform",
+    "description": "A full-stack blogging platform where users can create, edit, and publish articles with authentication and comment features.",
+    "tags": ["Node.js", "Express", "MongoDB", "Bootstrap", "JWT"],
+    "repoLink": "https://github.com/example/devblog",
+    "demoLink": "https://example.com/devblog"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1000",
+    "title": "CodeNotes - Developer Notes App",
+    "description": "A note-taking application designed for developers to organize code snippets, documentation, and quick notes efficiently.",
+    "tags": ["React", "Context API", "Local Storage", "CSS"],
+    "repoLink": "https://github.com/example/codenotes",
+    "demoLink": "https://example.com/codenotes"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWFjb3MlMjBsYXB0b3B8ZW58MHwyfDB8fHww",
+    "title": "PortfolioOS - macOS Style Portfolio",
+    "description": "An interactive portfolio website designed to mimic the macOS interface with draggable windows and dock animations.",
+    "tags": ["React", "Framer Motion", "Tailwind CSS", "JavaScript"],
+    "repoLink": "https://github.com/example/portfolioos",
+    "demoLink": "https://example.com/portfolioos"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&q=80&w=1000",
+    "title": "ShopLite - E-commerce UI",
+    "description": "A responsive e-commerce frontend with product listings, cart functionality, and smooth UI interactions.",
+    "tags": ["React", "Redux", "Tailwind CSS", "REST API"],
+    "repoLink": "https://github.com/example/shoplite",
+    "demoLink": "https://example.com/shoplite"
+  }
+]

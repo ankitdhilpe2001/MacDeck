@@ -1,0 +1,128 @@
+/**
+ * @file: profile.config.ts
+ * @author: Ankit Dhilpe
+ * @summary: Front-end developer with MERN stack knowledge.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Bootstrap",
+    "Tailwind CSS"
+  ],
+
+  backend: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "SQL"
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "Postman",
+    "Render",
+    "AWS"
+  ]
+};
+
+
+// --------------------------------------------------
+// 2. PROJECT EXPERIENCE
+// --------------------------------------------------
+
+class ProfessionalHistory {
+
+  /**
+   * FULL STACK BLOG APPLICATION
+   */
+  public BlogApplication() {
+    const role = "Full Stack Developer";
+
+    const features = [
+      "CRUD operations for blog posts",
+      "MVC architecture implementation",
+      "MongoDB cluster database integration"
+    ];
+
+    const tech = [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "EJS",
+      "JavaScript"
+    ];
+
+    return { role, features, tech };
+  }
+
+
+  /**
+   * URL SHORTENER APPLICATION
+   */
+  public UrlShortener() {
+    const role = "Frontend Developer";
+
+    const features = [
+      "Convert long URLs into short shareable links",
+      "QR code generation for easy access",
+      "User-friendly React interface"
+    ];
+
+    const tech = [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ];
+
+    return { role, features, tech };
+  }
+
+}
+
+
+// --------------------------------------------------
+// 3. EDUCATION
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  ["Pune Vidhyarthi Gruha's College of Pune", "M.Sc Computer Science (7.60 CGPA)"],
+  ["Abhinav Education Society College", "B.Sc Computer Science (7.47 CGPA)"]
+]);
+
+
+// --------------------------------------------------
+// 4. PERSONAL INFORMATION
+// --------------------------------------------------
+
+const developer = {
+  name: "Ankit Dhilpe",
+  role: "Front-end Developer",
+  location: "Pune, India",
+  email: "ankitdhilpe123@gmail.com",
+  github: "github.com/AnkitDhilpe",
+  linkedin: "linkedin.com/in/ankit-dhilpe-841a43183",
+  phone: "8530******"
+};
+
+
+// --------------------------------------------------
+// 5. LANGUAGES
+// --------------------------------------------------
+
+const languages = ["English", "Hindi", "Marathi"];
+
+
+export default new ProfessionalHistory();

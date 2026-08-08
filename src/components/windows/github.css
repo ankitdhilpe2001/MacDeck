@@ -1,0 +1,58 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  overflow: scroll;
+  height: 100%;
+  padding: 1rem;
+  padding-bottom: 5rem;
+}
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 20rem;
+  max-width: 25rem;
+  gap: 0.75rem;
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  background-color: #343434;
+  border-radius: 0.5rem;
+  color: rgb(238, 238, 238);
+}
+.cards .card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.cards .card h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.cards .card .description {
+  opacity: 0.7;
+  word-spacing: 0.2rem;
+  line-height: 1.3rem;
+}
+.cards .card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cards .card .tags .tag {
+  background-color: rgb(62, 72, 63);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-inline: 1.25rem;
+  padding-block: 0.75rem;
+  border-radius: 0.75rem;
+  white-space: nowrap;
+}
+.cards .card .urls {
+  display: flex;
+  gap: 1rem;
+}
+.cards .card .urls a {
+  color: white;
+}/*# sourceMappingURL=github.css.map */

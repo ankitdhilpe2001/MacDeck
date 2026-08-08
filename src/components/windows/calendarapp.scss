@@ -1,0 +1,14 @@
+  @import 'react-big-calendar/lib/sass/styles';
+  @import 'react-big-calendar/lib/addons/dragAndDrop/styles'; // 
+
+.calendar{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-block: 2rem;
+    // margin-left: 50px;
+    // margin-right: 50px;
+    // margin-top: 50px;
+}

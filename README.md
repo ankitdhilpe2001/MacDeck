@@ -1,16 +1,52 @@
-# React + Vite
+MacOS Web Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautifully crafted macOS-inspired web interface that replicates the look and feel of a real desktop environment in the browser. Built with smooth animations, draggable windows, and interactive UI components.
+## Features
 
-Currently, two official plugins are available:
+- ✨ macOS-style UI/UX
+- 🪟 Draggable & resizable windows
+- 🎬 Smooth animations using Framer Motion
+- 📁 App-like components (Cli, GitHub, Notes, Calendar etc.)
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Client:** 
 
-## React Compiler
+Frontend: React.js.
+Styling: SCSS
+Animations: Framer Motion
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Link
+live link:- macdeck-7a755c.netlify.app
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Mac-OSportfolio-gif (1)](https://github.com/user-attachments/assets/a27d983f-45fd-431d-8f5c-253ff4123b4d)
+
+
+
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+git clone https://github.com/AnkitDhilpe/MacDeck.git
+cd mac-os-project
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+Open localhost link in Browser
+
+
+## Future Improvements
+
+- To add more macOS apps (Safari, Terminal, VS Code)
+- Add dark/light mode toggle
+- Enhance mobile responsiveness (Right now only desktop responsive) 
